@@ -1,0 +1,395 @@
+/*@import url('http://fast.fonts.com/cssapi/95b765fd-fae4-4f1b-8155-d8244914a5c6.css');
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+
+
+
+html,body
+{
+	margin:0;
+	padding:0;
+    background-color: #e7ba01;
+    font-size: 16px;
+    font-family: 'Georgia','Verdana', cursive;
+    box-sizing: border-box;
+
+
+
+    
+}
+
+header{
+	
+    background-image: url(bande5.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: relative;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 360px;
+    top:0;
+    z-index: 2;
+}
+
+
+
+h1,h2{
+	display: none;
+
+}
+
+li
+{
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+.design-selection h3,.design-archives h3,.zen-resources h3
+{
+    text-align: center;
+}
+
+footer
+{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:#e6c53c;
+    padding:10px;
+}
+
+.summary{
+    font-style: italic;
+    margin-bottom: 32px;
+    margin-left:50px;
+
+}
+    
+.summary a{
+    text-decoration:none;
+
+}
+
+.wrapper
+{
+    display:flex;
+    justify-content:space-evenly;
+    background-image: url("bande14.png");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 360px;
+    border-top: double #f1f3de 70px;
+    border-image-source: url(ca1.png);
+    border-image-slice: 80;
+    border-image-repeat: round;
+    padding-right: 30px;
+    text-align:center;
+    
+  
+  
+}
+
+.select,.archives,.resources
+{
+    padding-left: 30px;
+}
+
+
+
+.explanation h3,.participation h3,.benefits h3,.requirements h3 ,.preamble h3 {
+    font-family: 'Pacifico', cursive;
+    margin-left: 150px;
+    margin-right: 150px;
+    border: double #f1f3de 70px;
+    border-image-source: url(cadre.png);
+    border-image-slice: 90;
+    border-image-repeat: round;
+    text-align: center;
+    padding: 16px;
+    font-size: 32px;
+    
+}
+
+.explanation,.participation,.benefits,.requirements,.preamble{
+    margin-left: 150px;
+    margin-right: 150px;
+    border: double #f1f3de 70px;
+    border-image-source: url(ca.png);
+    border-image-slice: 80;
+    border-image-repeat: round;
+  
+    padding: 16px;
+    background: radial-gradient(#87fb00,#e7ba01, #e7ba01);
+
+
+}
+
+
+
+a
+{
+    text-decoration:none;
+}
+
+footer a:link
+{
+   
+    color:blue;
+}
+
+
+  
+ 
+
+  a:hover
+  {
+   
+    background: #86dc15;
+    text-decoration:none;
+ 
+
+  }
+
+
+
+ .explanation p ,.participation p ,.benefits p,.requirements p,.preamble p
+    {
+        margin-left: 150px;
+        margin-right:150px;
+        text-align: left;
+        line-height: 1.5;
+
+    }
+
+
+
+
+@media all and (min-width: 1683px)
+{ 
+    
+
+    .explanation,.participation,.benefits,.requirements,.preamble
+    {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+
+   
+    width:50% !important;
+
+    }
+
+    .explanation p ,.participation p ,.benefits p,.requirements p,.preamble p
+    {
+        margin-left: 150px;
+        margin-right:150px;
+        text-align: left;
+    }
+
+    .sidebar
+    {
+        position:absolute !important;
+        top:670px !important;
+        left:1200px !important;
+        
+    }
+
+    .sidebar:before
+    {
+        content:  url("bande9.png") !important;
+        display:block !important;
+        position: absolute;
+        top:-170px !important;
+        right:-12px;
+   
+        z-index: 1;
+    }
+
+ 
+
+    .wrapper
+    {
+       
+        display: block;
+        background-image:none;
+        position: relative;
+        height: 700px;
+        border: double #f1f3de 70px;
+        border-image-source: url(ca1.png);
+        border-image-slice: 80;
+        border-image-repeat: round;
+    
+    }
+
+    footer
+    {
+        margin-bottom:20px;
+    }
+
+
+}
+
+@media all and (max-width: 601px)
+{
+    .wrapper
+    {
+    
+     background: none !important;
+     display: block;
+     text-align: center;
+
+
+    }
+
+    .design-selection,.design-archives,.zen-resources
+    {
+        background: radial-gradient(#87fb00,#e7ba01, #e7ba01);
+    }
+
+    .explanation p ,.participation p ,.benefits p,.requirements p,.preamble p
+    {
+        margin-left: 0px !important;
+        margin-right:0px !important;
+       
+    }
+
+
+    
+}
+
+@media all and (max-width: 993px)
+{
+    .explanation p ,.participation p ,.benefits p,.requirements p,.preamble p
+    {
+        margin-left: 30px;
+        margin-right:30px;
+        text-align: left;
+    }
+}
+
+@media all and (min-width: 1575px)
+{
+    header
+    {
+
+        background-image: url(bande6.png) !important;
+        background-repeat: no-repeat !important;
+        display: block !important;
+        position: relative !important;
+        background-size: 100% 100% !important;
+        background-position: center !important;
+        height: 360px !important;
+        top:0 !important;
+        z-index: 2 !important;
+
+
+    }
+
+
+
+    
+}
+
+@media all and (max-width: 422px)
+{
+    h3
+    {
+
+        border-image-source: none !important;
+        border:0 !important;
+        border:5px solid !important;
+        border-radius:50px !important;
+        
+    }
+
+    header
+    {
+        background-image: url(bande8.png) !important;
+        background-repeat: no-repeat !important;
+        display: block !important;
+        position: relative !important;
+        background-size: 100% 100% !important;
+        background-position: center !important;
+        height: 360px !important;
+        top:0 !important;
+        z-index: 2 !important;
+    }
+}
+
+
+
+@media all and (max-width: 727px)
+{
+    
+
+    #zen-explanation,.participation,.benefits,.requirements,#zen-preamble
+    {
+        border-image-source: none !important ;
+        border:5px solid !important;
+        border-image: linear-gradient(#d9f63c, #19ad2c) 30 !important;
+    }
+
+    header
+    {
+        background-image: url(bande7.png) !important;
+        background-repeat: no-repeat !important;
+        display: block !important;
+        position: relative;
+        background-size: 100% 100% !important;
+        background-position: center !important;
+        height: 360px !important;
+        top:0 !important;
+        z-index: 2 !important;
+    }
+ 
+}
+
+
+@media all and (max-width: 1142px)
+{
+    
+
+    #zen-preamble,.participation,.benefits,.requirements
+    { 
+        margin-left:5px !important;
+        margin-right:5px !important;
+        margin: 20px;
+    }
+    #zen-explanation{
+        margin-left:5px !important;
+        margin-right:5px !important;
+     
+
+
+
+    }
+
+    h3
+    {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
